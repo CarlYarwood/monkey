@@ -31,7 +31,8 @@ const (
 
 	//Delimiters
 	COMMA      = ","
-	SEMICOLON = ";"
+	SEMICOLON  = ";"
+    COLON      = ":"
 
 	LPAREN    = "("
 	RPAREN    = ")"
