@@ -5,12 +5,12 @@ import (
     "testing"
 )
 
-func TestSTring(t *testing.T) {
+func TestString(t *testing.T) {
     program := &Program{
-        statements: []Statement{
+        Statements: []Statement{
             &LetStatement{
                 Token: token.Token{Type: token.LET, Literal: "let"},
-                name: &Identifier{
+                Name: &Identifier{
                     Token: token.Token{ Type: token.IDENT, Literal: "myVar"},
                     Value: "myVar",
                 },
